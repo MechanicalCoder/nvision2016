@@ -1,0 +1,25 @@
+html{
+	overflow-x:hidden;
+	background:#000;
+}
+
+body{
+	font-family:'Roboto',serif;
+	font-weight:300;
+}
+
+nav{
+	background-color:#512DA8;
+}
+
+.card-image img{
+	width:90%;
+}
+
+.collapsible-header{
+	font-weight:500;
+}
+
+img.responsive-img{
+	max-width: 80%;
+}

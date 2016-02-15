@@ -1,0 +1,4 @@
+- Removed registration
+- Added schedule, hospitality, transport details
+- Added organizers
+-
