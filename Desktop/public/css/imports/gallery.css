@@ -1,0 +1,395 @@
+html{
+	overflow-x:hidden;
+}
+
+#grid {
+	left: 20%;
+	width: 80%;
+	position: relative;
+}
+
+#preloader {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 50%;
+	top: 50%;
+	margin: -12px 0 0 -12px;
+	background: url(http://labs.juan.me/gallery/images/loading-24.gif) no-repeat center center;
+	-moz-transition: 600ms, opacity, ease-out;
+	-o-transition: 600ms, opacity, ease-out;
+	-webkit-transition: 600ms, opacity, ease-out;
+	transition: 600ms, opacity, ease-out;
+	filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+	opacity: 1;
+}
+#preloader.o {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+}
+
+#veil {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	background: rgba(0, 0, 0, 0.84);
+	z-index: 7;
+	-moz-transition-property: opacity, height;
+	-o-transition-property: opacity, height;
+	-webkit-transition-property: opacity, height;
+	transition-property: opacity, height;
+	-moz-transition-duration: 900ms, 0s;
+	-o-transition-duration: 900ms, 0s;
+	-webkit-transition-duration: 900ms, 0s;
+	transition-duration: 900ms, 0s;
+	-moz-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-moz-transition-delay: 0s, 900ms;
+	-o-transition-delay: 0s, 900ms;
+	-webkit-transition-delay: 0s, 900ms;
+	transition-delay: 0s, 900ms;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+}
+#veil.o {
+	-moz-transition-delay: 0s, 0s;
+	-o-transition-delay: 0s, 0s;
+	-webkit-transition-delay: 0s, 0s;
+	transition-delay: 0s, 0s;
+	filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+	opacity: 1;
+	height: 100%;
+}
+
+#grid {
+	width: 100%;
+	height: 100%;
+	-moz-transition: 500ms, opacity, ease-out;
+	-o-transition: 500ms, opacity, ease-out;
+	-webkit-transition: 500ms, opacity, ease-out;
+	transition: 500ms, opacity, ease-out;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	font-size: 20px;
+}
+#grid.loaded {
+filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+opacity: 1;
+}
+#grid .cell {
+position: absolute;
+width: 256px;
+height: 256px;
+overflow: hidden;
+background: url(http://labs.juan.me/gallery/images/loading-10.gif) no-repeat center center;
+}
+#grid .cell.ov {
+overflow: visible;
+}
+#grid .cell .detail {
+position: absolute;
+top: 0;
+left: 0;
+width: 200%;
+height: 200%;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+}
+#grid .cell .detail.l {
+left: -100%;
+}
+#grid .cell .detail.t {
+top: -100%;
+}
+#grid .cell .detail .close {
+position: absolute;
+top: 3%;
+right: 3%;
+width: 35px;
+height: 35px;
+z-index: 9;
+background: black;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+-moz-transition: 500ms, opacity, ease-out, 1400ms;
+-o-transition: 500ms, opacity, ease-out, 1400ms;
+-webkit-transition: 500ms, opacity, ease-out, 1400ms;
+transition: 500ms, opacity, ease-out, 1400ms;
+}
+#grid .cell .detail .close span {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url(http://labs.juan.me/gallery/images/icon-close.png) no-repeat center center;
+-moz-transition: 150ms, all, ease-out;
+-o-transition: 150ms, all, ease-out;
+-webkit-transition: 150ms, all, ease-out;
+transition: 150ms, all, ease-out;
+}
+#grid .cell .detail .close span:hover {
+-moz-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+#grid .cell .detail .image-detail {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: white;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+z-index: 8;
+-moz-transition: 600ms, opacity, ease-out, 900ms;
+-o-transition: 600ms, opacity, ease-out, 900ms;
+-webkit-transition: 600ms, opacity, ease-out, 900ms;
+transition: 600ms, opacity, ease-out, 900ms;
+}
+#grid .cell .detail .image-detail img {
+width: 100%;
+}
+#grid .cell .detail.o {
+filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+opacity: 1;
+}
+#grid .cell .detail.open {
+z-index: 7;
+-moz-perspective: 500;
+-webkit-perspective: 500;
+perspective: 500;
+perspective-origin: 25% 0%;
+-webkit-perspective-origin: 25% 0%;
+/* Safari and Chrome */
+}
+#grid .cell .detail.open .close {
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+opacity: 0.5;
+}
+#grid .cell .detail.open .tl {
+-moz-transform: rotateX(0deg);
+-ms-transform: rotateX(0deg);
+-webkit-transform: rotateX(0deg);
+transform: rotateX(0deg);
+filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+opacity: 1;
+}
+#grid .cell .detail.open .bl {
+-moz-transform: rotateX(0deg);
+-ms-transform: rotateX(0deg);
+-webkit-transform: rotateX(0deg);
+transform: rotateX(0deg);
+filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+opacity: 1;
+}
+#grid .cell .detail.open .tr {
+-moz-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+-webkit-transform: rotateY(0deg);
+transform: rotateY(0deg);
+filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+opacity: 1;
+}
+#grid .cell .detail.open .image-detail {
+filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+opacity: 1;
+}
+#grid .cell .detail.close .close {
+-moz-transition: 600ms, opacity, ease-out, 0s;
+-o-transition: 600ms, opacity, ease-out, 0s;
+-webkit-transition: 600ms, opacity, ease-out, 0s;
+transition: 600ms, opacity, ease-out, 0s;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+}
+#grid .cell .detail.close .image-detail {
+-moz-transition: 600ms, opacity, ease-out, 0s;
+-o-transition: 600ms, opacity, ease-out, 0s;
+-webkit-transition: 600ms, opacity, ease-out, 0s;
+transition: 600ms, opacity, ease-out, 0s;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+}
+#grid .cell .detail.close .tr {
+-moz-transition: 300ms, all, linear, 600ms;
+-o-transition: 300ms, all, linear, 600ms;
+-webkit-transition: 300ms, all, linear, 600ms;
+transition: 300ms, all, linear, 600ms;
+-moz-transform: rotateY(90deg);
+-ms-transform: rotateY(90deg);
+-webkit-transform: rotateY(90deg);
+transform: rotateY(90deg);
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+}
+#grid .cell .detail.close .bl {
+-moz-transition: 300ms, all, linear, 900ms;
+-o-transition: 300ms, all, linear, 900ms;
+-webkit-transition: 300ms, all, linear, 900ms;
+transition: 300ms, all, linear, 900ms;
+-moz-transform: rotateX(-90deg);
+-ms-transform: rotateX(-90deg);
+-webkit-transform: rotateX(-90deg);
+transform: rotateX(-90deg);
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+}
+#grid .cell .detail.close .tl {
+-moz-transition: 300ms, all, linear, 1200ms;
+-o-transition: 300ms, all, linear, 1200ms;
+-webkit-transition: 300ms, all, linear, 1200ms;
+transition: 300ms, all, linear, 1200ms;
+-moz-transform: rotateX(-90deg);
+-ms-transform: rotateX(-90deg);
+-webkit-transform: rotateX(-90deg);
+transform: rotateX(-90deg);
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+}
+#grid .cell .detail .tl {
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 50%;
+background: white;
+-moz-transition: 300ms, all, linear;
+-o-transition: 300ms, all, linear;
+-webkit-transition: 300ms, all, linear;
+transition: 300ms, all, linear;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+-moz-transform-origin: 0% 0%;
+-ms-transform-origin: 0% 0%;
+-webkit-transform-origin: 0% 0%;
+transform-origin: 0% 0%;
+-moz-transform: rotateX(-90deg);
+-ms-transform: rotateX(-90deg);
+-webkit-transform: rotateX(-90deg);
+transform: rotateX(-90deg);
+z-index: 6;
+}
+#grid .cell .detail .bl {
+position: absolute;
+top: 50%;
+left: 0;
+width: 50%;
+height: 50%;
+background: white;
+-moz-transition: 300ms, all, linear, 300ms;
+-o-transition: 300ms, all, linear, 300ms;
+-webkit-transition: 300ms, all, linear, 300ms;
+transition: 300ms, all, linear, 300ms;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+-moz-transform-origin: 0% 0%;
+-ms-transform-origin: 0% 0%;
+-webkit-transform-origin: 0% 0%;
+transform-origin: 0% 0%;
+-moz-transform: rotateX(-90deg);
+-ms-transform: rotateX(-90deg);
+-webkit-transform: rotateX(-90deg);
+transform: rotateX(-90deg);
+z-index: 5;
+}
+#grid .cell .detail .tr {
+position: absolute;
+top: 0;
+left: 50%;
+width: 50%;
+height: 100%;
+background: white;
+z-index: 4;
+-moz-transition: 300ms, all, linear, 600ms;
+-o-transition: 300ms, all, linear, 600ms;
+-webkit-transition: 300ms, all, linear, 600ms;
+transition: 300ms, all, linear, 600ms;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+-moz-transform-origin: 0% 0%;
+-ms-transform-origin: 0% 0%;
+-webkit-transform-origin: 0% 0%;
+transform-origin: 0% 0%;
+-moz-transform: rotateY(90deg);
+-ms-transform: rotateY(90deg);
+-webkit-transform: rotateY(90deg);
+transform: rotateY(90deg);
+}
+#grid .cell.no-bg {
+background: none;
+}
+#grid .cell.loaded .image img {
+filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+opacity: 1;
+}
+#grid .cell.loaded .info {
+display: table;
+}
+#grid .cell .info {
+display: none;
+position: absolute;
+height: inherit;
+width: inherit;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 2;
+background: rgba(255, 255, 255, 0.8);
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+-moz-transition: 600ms, opacity, ease-out;
+-o-transition: 600ms, opacity, ease-out;
+-webkit-transition: 600ms, opacity, ease-out;
+transition: 600ms, opacity, ease-out;
+}
+#grid .cell .info:hover {
+filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+opacity: 1;
+}
+
+#grid .cell .info img{
+position:relative;
+left:50%;
+}
+
+#grid .cell .info .w {
+display: table-cell;
+vertical-align: middle;
+}
+#grid .cell .info .w h2 {
+color: #333;
+background: none;
+text-align: center;
+font-family: "din-light";
+font-size: 100%;
+line-height: 100%;
+letter-spacing: 0;
+padding: 0 5% 0 5%;
+}
+#grid .cell .image {
+position: absolute;
+height: inherit;
+width: inherit;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+}
+#grid .cell .image img {
+width: 100%;
+-moz-transition: 600ms, opacity, ease-out;
+-o-transition: 600ms, opacity, ease-out;
+-webkit-transition: 600ms, opacity, ease-out;
+transition: 600ms, opacity, ease-out;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+}

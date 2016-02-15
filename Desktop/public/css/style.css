@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+body{
+	background:#171d25;
+	margin:0;
+}
+
+.nf_container {
+	width: 80%;
+	position: relative;
+	left: 20%;
+	text-align: center;
+}
+
+.nf_container > h1 {
+	position: relative;
+  margin-top: 25%;
+}
+
+.pushmenu { /*this is the nav*/
+  background: transparent;
+  font-family: Arial, Helvetics, sans-serif;
+  width: 240px;
+  height: 1%;
+  top: -50px;
+  z-index: 1000;
+  position:fixed;
+}
+
+.pushmenu h3 {
+  color: #cbbfad;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin: 0;
+  background: #171d25;
+  height: 16px;
+}
+
+.pushmenu a {
+  position:relative;
+  top:5em;
+  display: block; /* drops the nav vertically*/
+  text-decoration: none;
+  /*border-top: 1px solid #56544e;*/
+  border-bottom: 1px solid #312e2a;
+  padding: 14px;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #70acd9;
+}
+
+.pushmenu a:hover {
+  background:#19222b;
+}
+
+.pushmenu a:active {
+  background: #454f5c;
+  color: #fff;
+}
+
+.pushmenu-left {
+  left: -240px;
+}
+
+.pushmenu-left.pushmenu-open {
+  left: 0;
+}
+
+.pushmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.pushmenu-push-toright {
+  left: 0px;
+}
+
+/*Transition*/
+.pushmenu, .pushmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#nav_list {
+  cursor: pointer;
+  height: 27px;
+  width: 33px;
+  text-indent: -99999em;
+}
+
+#nav_list.active {
+  background-position: -33px top;
+}
+
+.buttonset {
+  background: transparent;
+  height: 16px;
+  padding: 10px 20px 20px;
+}
+
+section.content {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+}
+
+#logo{
+  position:fixed;
+  left:0px;
+  z-index: +1;
+  top: -16px;
+}
+
+#dates {
+  position: relative;
+  color: #FFF;
+  display: inline-block;
+  margin-top: 25px;
+  font: 30px/36px "D","Lucida Grande",verdana,sans-serif;
+  left: 78%;
+}
+
+.social-icons{
+  position:fixed;
+  right:20px;
+  z-index:1;
+  bottom:10px;
+}

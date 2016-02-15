@@ -1,0 +1,23 @@
+#trulabz_logo {
+ text-align: left;
+ display: inline;
+ height: 60%;
+ padding-left: 5%;
+}
+
+#empty {
+ display: block;
+ padding-top: 125px;
+}
+
+#trulabz_p {
+ width: 65%;
+ display: inline;
+ float: right;
+}
+
+#trulabz_p > p {
+ max-width: 80%;
+ text-align: left;
+  color: white;
+}

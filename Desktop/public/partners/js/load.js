@@ -1,0 +1,1 @@
+$(document).ready(function(){setTimeout(function(){$('body').addClass('loaded');$('h1').css('color','#222222');$('loading_content').css('display','none');},3000);});

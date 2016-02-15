@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Roboto',serif;
+  background-color:#FE4B74;
+}
+
+.social-media{
+	position: absolute;
+    display: block;
+    top: 42%;
+    right: 1%;
+}
+
+section {
+  width: 95%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100%;
+  right:5%;
+  background-image:url("http://core0.staticworld.net/images/article/2014/06/nao-evolution-edited-larger-100314027-large.png");
+  background-size:cover;
+}
+
+section:nth-of-type(2n) {
+  background-color: #FE4B74;
+}
+
+#poster img{
+	position: absolute;
+    width: 65%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.social-media a{
+	color:black;
+}
+
+#topic{
+	position: absolute;
+	right: 10%;
+	top: 12%;
+	font-size:1.1em;
+}
+
+@media (max-width:700px){
+	#poster img{
+		display:none;
+	}
+
+	h1{
+		font-size:2em;
+	}
+
+	.social-media{
+		left:3%;
+	}
+
+	.social-media a{
+		color:#fff;
+	}
+}
+
+@media (min-width:768px and max-width:1090px){
+	#poster img{
+		width:50%;
+	}
+
+	h1{
+		font-size:2.5em;
+	}
+}
+
+@media (max-width:400px){
+	section{
+		width:100%;
+	}
+
+	#topic{
+		right:6%;
+	}
+}
+
+#logo{
+	position:absolute;
+	right:6%;
+	top:2%;
+}
+.intro {
+  height: 100vh;
+}
+
+.content {
+  display: table-cell;
+}
+
+h1 {
+  font-size: 3em;
+  display: block;
+  color: white;
+  font-weight: 300;
+}
+
+h3{
+	display:block;
+	color:white;
+	font-weight:400;
+	position:relative;
+	bottom:30px;
+}
+
+h4{
+	display:block;
+	color:white;
+	font-weight:300;
+	font-family:'Roboto',serif;
+}
+
+a{
+	text-decoration:none;
+	color:#868380;
+	cursor:pointer;
+}
+
+.social-media a:hover{
+	color:#08d4f9;
+}
+
+.btn{
+	webkit-transition: background .2s,border .2s;
+    transition: background .2s,border .2s;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    outline: 0;
+    vertical-align: top;
+    color: #fff;
+    background: rgba(47,151,121,.2);
+    display: inline-block;
+    border: 2px solid #2f9779;
+    font-size: 15px;
+    letter-spacing: .08em;
+    line-height: 14px;
+    padding: 19px 40px 21px;
+    cursor:pointer;
+}
+
+.btn:hover{
+	background: rgba(47,151,121,.6);
+}
+
+#register_screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  overflow:hidden;
+}
+
+#detail_screen{
+position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  overflow:hidden;
+}
+
+.shadow{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
+}
+
+#register_container{
+  overflow-y: auto;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  z-index: 30;
+  max-width:390px;
+  overflow-x:hidden;
+  top:45px;
+  height:600px;
+  right:10px;
+}
+
+.close-btn {
+  z-index: 40;
+  position: relative;
+  margin: auto;
+  left: 70%;
+  top: 15px;
+  text-align: center;
+  color:white;
+  font-size:25px;
+  cursor:pointer;
+}
+
+#details{
+  overflow-y: auto;
+  position: relative;
+  margin: auto;
+  z-index: 30;
+  max-width:700px;
+  overflow-x:hidden;
+  top:45px;
+  height:600px;
+  background-color:#1f2020;
+  font-size:1.05em;
+  font-family: 'Roboto', Serif;
+  font-weight:300;
+  margin-bottom:30px;
+}
+
+h2{
+  display:block;
+  color:#fff;
+  text-align:center;
+  position:relative;
+  top:85%;
+  font-weight:300;
+  font-size:1.3em;
+}
+
+.card_topic{
+  position:relative;
+  width:100%;
+  height:20%;
+  background-position:center;
+  background-size:cover;
+  top:-25px;
+  box-shadow:box-shadow:rgba(0,0,0,0.3) 0 16px 16px 0;
+  -webkit-box-shadow:rgba(0,0,0,0.3) 0 16px 16px 0;
+  -moz-box-shadow:rgba(0,0,0,0.3) 0 16px 16px 0;
+}
+
+#details p{
+  display:block;
+  text-align: justify;
+  font-family:'Roboto',serif;
+  padding: 20px 20px 20px 20px;
+  position:relative;
+  bottom:40px;
+  color:white;
+  font-size:0.9em;
+  top: -20px;
+  line-height: 1.4em;
+}
+.large{
+  font-size:1.15em;
+}
+
+a{
+  text-decoration:none;
+  color: #08d4f9;
+}

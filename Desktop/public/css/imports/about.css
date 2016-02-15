@@ -1,0 +1,43 @@
+.container_about {
+	position: relative;
+	margin-top: 6%;
+}
+
+header > h1 {
+font-family:'Roboto', 'Myriad Pro', serif;
+font-weight:400;
+color:#70acd9;
+font-size: 50px;
+}
+
+hr{
+width:250px;
+position:relative;
+bottom:10px;
+}
+
+.subtext {
+font-size:18px;
+font-style: italic;
+position: relative;
+bottom: 20px;
+color:#fff;
+}
+
+.about_text{
+font-size:23px;
+line-height:1.2em;
+font-family:'Roboto', 'Myriad Pro', serif;
+font-weight:300;
+color:#70acd9;
+text-align:justify;
+}
+
+.main_about{
+width: 70%;
+height:100%;
+position: relative;
+margin: auto;
+text-align: center;
+left: 9%;
+}

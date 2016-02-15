@@ -1,0 +1,47 @@
+.updates_container {
+  position: relative;
+  width: 80%;
+  left: 20%;
+}
+
+.workshop {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.workshop > h1 {
+  font-size: 1.8em;
+}
+
+.ws_header > img {
+  margin-top: 2%;
+  width: 63%;
+  position: relative;
+  float: right;
+  margin-right: 5%;
+}
+
+.ws_header {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.right_points {
+  width: 30%;
+  position: relative;
+  float: left;
+  text-align: left;
+}
+.block_display {
+  display: block;
+  width: 90%;
+  position: absolute;
+  margin-top: 27%;
+  text-align: justify;
+}
+
+.right_points > p {
+  line-height: 1.6em;
+  font-size: 1.2em;
+}

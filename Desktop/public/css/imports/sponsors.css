@@ -1,0 +1,75 @@
+.container_sponsor {
+	position:relative;
+	margin-left: 12%;
+	text-align:center;
+	font-family:'Roboto',serif;
+	color:#70acd9;
+	font-weight:300;
+}
+
+.sponsr_headings {
+	font-size: 40px;
+}
+
+hr{
+	width:120px;
+	position:relative;
+	bottom:15px;
+}
+
+.childitem {
+	display:inline-block;
+	position:relative;
+	margin-left:20px;
+	color:#DED4B9;
+}
+
+.members_sponsor li{
+	margin-left:40px;
+}
+
+li a{
+	text-decoration:none;
+	color:#DED4B9;
+}
+
+.contact_sponsor h3{
+	position:relative;
+	bottom:15px;
+}
+
+.contact_sponsor span{
+	position:relative;
+	bottom:25px;
+}
+.members_sponsor li img{
+	border-radius:50%;
+	width:150px;
+	height:150px;
+}
+.section2 {
+	position:relative;
+	bottom:40px;
+}
+
+.section2 h3{
+	font-weight:300;
+}
+
+.sponsr_line li{
+	position:relative;
+	left:20px;
+	padding:30px;
+}
+
+.sponsr_line img{
+	height:200px;
+	width:200px;
+	border-radius:5%;
+}
+
+
+.title_sponsor img {
+	width: 50%;
+	height: 10%;
+}

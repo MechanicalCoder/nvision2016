@@ -1,0 +1,660 @@
+<li className="icon-clima-1 rb-span-2">
+  <h3>Drift King</h3><span className="rb-temp">Torque</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Drift King</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-2">
+  <h3>Mine Strife</h3><span className="rb-temp">Torque</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Mine Strife</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-1">
+  <h3>CadPro</h3><span className="rb-temp">Torque</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>CadPro</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Got Root</h3><span className="rb-temp">Kludge</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Got Root</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-1">
+  <h3>Enigma</h3><span className="rb-temp">Kludge</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Enigma</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-1 rb-span-2">
+  <h3>Hack-a-Maze</h3><span className="rb-temp">Kludge</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Hack-a-Maze</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-2">
+  <h3>Aquanaut</h3><span className="rb-temp">Cepheid</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Aquanaut</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-11">
+  <h3>Eureka</h3><span className="rb-temp">Cepheid</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Eureka</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-2 rb-span-2">
+  <h3>The Galileo Project</h3><span className="rb-temp">Cepheid</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>The Galileo Project</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-2">
+  <h3>Code-a-Bot</h3><span className="rb-temp">Infero</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Code-a-Bot</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Hello World</h3><span className="rb-temp">Infero</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Hello World</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Pro Quest</h3><span className="rb-temp">Infero</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Pro Quest</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Algorithma</h3><span className="rb-temp">Infero</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Algorithma</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4 rb-span-4">
+  <h3>RoboWars</h3><span className="rb-temp">Robotics</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>RoboWars</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Robosoccer</h3><span className="rb-temp">Robotics</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Robosoccer</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Arcade Run</h3><span className="rb-temp">Robotics</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Arcade Run</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4 rb-span-2">
+  <h3>Find The Bug</h3><span className="rb-temp">Robotics</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Find The Bug</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Battle of Breadboards</h3><span className="rb-temp">Electronika</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Battle of Breadboards</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>DTMF Race</h3><span className="rb-temp">Electronika</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>DTMF Race</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Electronic Bloopers</h3><span className="rb-temp">Electronika</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Electronic Bloopers</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Elixir of Electricity</h3><span className="rb-temp">Electronika</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Elixir of Electricity</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4 rb-span-2">
+  <h3>Structural Case Study</h3><span className="rb-temp">Equilibria</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Structural Case Study</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Make It Green</h3><span className="rb-temp">Equilibria</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Make It Green</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Bridge Builder</h3><span className="rb-temp">Equilibria</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Bridge Builder</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4 rb-span-2">
+  <h3>Business Simulation Game</h3><span className="rb-temp">E-Cell</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Business Simulation Game</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4 rb-span-2">
+  <h3>Crowd Pitch</h3><span className="rb-temp">E-Cell</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Crowd Pitch</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4 rb-span-2">
+  <h3>Junkyard Wars</h3><span className="rb-temp">Misc.</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Junkyard Wars</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4 rb-span-2">
+  <h3>Mathagician</h3><span className="rb-temp">Misc.</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Mathagician</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Automobile Quiz</h3><span className="rb-temp">Quizzing</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Automobile Quiz</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Chemical Quiz</h3><span className="rb-temp">Quizzing</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Chemical Quiz</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Business Quiz</h3><span className="rb-temp">Quizzing</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Business Quiz</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4">
+  <h3>Science Quiz</h3><span className="rb-temp">Quizzing</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>Science Quiz</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li className="icon-clima-4 rb-span-4">
+  <h3>General Quiz</h3><span className="rb-temp">Quizzing</span>
+  <div className="rb-overlay">
+    <span className="rb-close">close</span>
+    <div className="rb-week">
+      <div className="pushmenu-push-toright">
+          <nav className="pushmenu pushmenu-open rulemenu">
+            <h3>General Quiz</h3>
+            <a href="#">Introduction</a>
+            <a href="#">Rules</a>
+            <a href="#">Prize</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div className="textholder">
+            <h2> Details Coming Soon </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</li>
